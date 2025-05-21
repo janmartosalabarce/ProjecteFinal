@@ -1,0 +1,41 @@
+body {
+    font-family: sans-serif;
+    background-color: #eee;
+    margin: 0;
+    padding: 40px;
+  }
+  
+  .prototypes-container {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .prototype-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease;
+    width: 250px;
+  }
+  
+  .prototype-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .prototype-card img {
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .prototype-card p {
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
