@@ -9,29 +9,29 @@ body {
     height: 100vh;
 }
 
-.container {
+.cuerpo {
     display: flex;
     max-width: 1000px;
     background-color: white;
 }
 
-.image-section img {
+.imagenes img {
     width: 500px;
     height: auto;
     object-fit: cover;
 }
 
-.text-section {
+.texto {
     padding: 40px;
     max-width: 400px;
 }
 
-.text-section h1 {
+.texto h1 {
     font-size: 32px;
     margin-bottom: 20px;
 }
 
-.text-section p {
+.texto p {
     font-size: 14px;
     color: #666;
 }
@@ -43,18 +43,18 @@ button {
     border: none;
     cursor: pointer;
     margin: 20px 0;
-    border-radius: 5px;
+    border-radius: 35px;
 }
 
 .info {
     margin-top: 20px;
 }
 
-.info-item {
+.info-texto {
     margin-bottom: 20px;
 }
 
-.info-item span {
+.info-texto span {
     font-size: 18px;
     font-weight: bold;
     color: #aaa;

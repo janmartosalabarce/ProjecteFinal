@@ -6,25 +6,25 @@ body {
     display: flex;
 }
 
-.header {
+.texto {
     display: flex;
     align-items: center;
     max-width: max-content;
     padding-left: 100px;
     gap: 100px;
 }
-.header h1 {
+.texto h1 {
     font-weight: bold;
     font-size: 50px;
     padding-right: 30px;
 }
-.header p {
+.texto p {
     margin-top: 50px;
     max-width: 300px;
     color: rgb(95, 95, 95);
 }
 
-.container {
+.cuerpo {
     max-width: 900px;
     width: 80%;
     text-align: left;
@@ -37,14 +37,15 @@ body {
     padding: 20px 30px;
     margin-top: 20px;
     cursor: pointer;
+    border-radius: 10px;
 }
 
-.image-container img {
+.imagen img {
     width: 100%;
     height: 100%;
 }
 
-.image-container {
+.imagen {
     margin-top: 20px;
     align-items: center;
     display: flex;
