@@ -5,14 +5,14 @@ body {
     padding: 40px;
   }
   
-  .prototypes-container {
+  .contenedor-prototipos {
     display: flex;
     gap: 40px;
     justify-content: center;
     flex-wrap: wrap;
   }
   
-  .prototype-card {
+  .prototipo {
     background-color: white;
     padding: 20px;
     border-radius: 10px;
@@ -24,18 +24,18 @@ body {
     width: 250px;
   }
   
-  .prototype-card:hover {
+  .prototipo:hover {
     transform: translateY(-5px);
   }
   
-  .prototype-card img {
+  .prototipo img {
     width: 100%;
     border-radius: 6px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
   }
   
-  .prototype-card p {
+  .prototipo p {
     font-weight: bold;
     font-size: 1.1rem;
   }
