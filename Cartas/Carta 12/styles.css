@@ -1,13 +1,20 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body{
     background-image: url(imagenes/Imagen\ carta\ 12.png);
     background-repeat: no-repeat;
+    background-position: 60%;
+    
+  
 }
 
+.cuerpo{
+    
+}
 
 .cuadrados{
     display: flex;
@@ -48,26 +55,47 @@ body{
     flex-direction: column;
     margin-top: 200px;
     margin-left: 40px;
+    background-color: #09212C;
+    width: 30%;
+    padding: 20px;
+    border-radius: 20px;
+    filter: opacity(80%);
+    color: white;
 }
 
 .caja h1{
     padding-top: 20px;
-    font-size: 64px;
+    font-size: 60px;
 }
 
 .caja p{
     padding-top: 20px;
     padding-bottom: 20px;
-    font-size: 26px;
+    font-size: 20px;
 }
 
 .caja button{
     width: 60px;
-    padding: 24px 48px;
+    padding: 22px 44px;
+    background-color: #63E1E1;
+    border-radius: 36px;
+    justify-content: center;
+    width: 182px;
+    border-style: none;
+    font-size: 20px;
 }
 
 .lista{
-    margin-top: 200px;
+    margin-top: 170px;
     margin-left: 40px;
     display: flex;
+    border: solid 1px;
+    width: 80%;
+    justify-content: space-around;
+    border-radius: 20px;
+    padding: 30px;
+    background-color: #09212C;
+    filter: opacity(80%);
+    border-color: white;
+    color: white;
 }
