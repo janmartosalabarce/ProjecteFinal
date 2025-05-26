@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(imagenes/Imagen\ carta\ 12.png);
+    background-repeat: no-repeat;
+}
+
+
+.cuadrados{
+    display: flex;
+}
+
+.cuadrado1{
+    width: 16px;
+    height: 16px;
+    background-color: #FFFF67;
+}
+
+.cuadrado2{
+    width: 16px;
+    height: 16px;
+    background-color: #3FFFFF;
+}
+
+.cuadrado3{
+    width: 16px;
+    height: 16px;
+    background-color: #52DC4B;
+}
+
+.cuadrado4{
+    width: 16px;
+    height: 16px;
+    background-color: #FF6E3D;
+}
+
+.cuadrado5{
+    width: 16px;
+    height: 16px;
+    background-color: #3D45FF;
+}
+
+.caja{
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    margin-left: 40px;
+}
+
+.caja h1{
+    padding-top: 20px;
+    font-size: 64px;
+}
+
+.caja p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 26px;
+}
+
+.caja button{
+    width: 60px;
+    padding: 24px 48px;
+}
+
+.lista{
+    margin-top: 200px;
+    margin-left: 40px;
+    display: flex;
+}
